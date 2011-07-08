@@ -1,0 +1,16 @@
+{
+	"name": "Daily Burn Chrome",
+		"version": "1.0",
+		"description": "Access DailyBurn.com from your browser",
+		"browser_action": {
+			"default_icon": "logo_16.png",
+			"popup": "popup.html"
+		},
+		"icons": { 
+			"48": "logo_48.png",
+			"128": "logo_128.png" 
+		},
+		"permissions": [
+			"http://dailyburn.com"
+			]
+}
